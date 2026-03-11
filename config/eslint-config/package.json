@@ -1,0 +1,17 @@
+{
+  "name": "@shieldify/eslint-config",
+  "version": "0.0.0",
+  "private": true,
+  "files": [
+    "library.js",
+    "next.js",
+    "node.js"
+  ],
+  "devDependencies": {
+    "@laloma/eslint-config": "^1.0.1",
+    "@shieldify/prettier": "workspace:*",
+    "eslint": "^9.39.4",
+    "eslint-plugin-simple-import-sort": "^12.1.1"
+  }
+
+}
