@@ -11,13 +11,15 @@
     "@shieldify/auth": "workspace:*",
     "fastify": "^5.0.0",
     "fastify-type-provider-zod": "^6.1.0",
-    "zod": "^3.25.76"
+    "zod": "^3.25.76",
+     "dotenv": "^16.0.0"
   },
   "devDependencies": {
     "@shieldify/eslint-config": "workspace:*",
     "@shieldify/prettier": "workspace:*",
     "@shieldify/tsconfig": "workspace:*",
     "@types/node": "^22.0.0",
+    "prisma": "^7.5.0",
     "tsx": "^4.21.0"
   },
   "prettier": "@shieldify/prettier",
