@@ -12,6 +12,7 @@ export async function createAccount(app: FastifyInstance){
         {
             schema:{
                 tags : ['auth'],
+                summary: 'Create a new user account',
                 body: z.object({
                     name:z.string(),
                     email:z.string().email(),
@@ -35,12 +36,27 @@ export async function createAccount(app: FastifyInstance){
                 .send({ error: 'User with this email already exists' })
             }
 
+            const[, domain] = email.split('@')
+            const autoJoinOrganization = await prisma.organization.findFirst({
+                where: {
+                    domain,
+                    shouldAttachUsersByDomain: true,
+                },
+            })
+
+
             const passwordHash = await hash(password, 6)
             await prisma.user.create({
                 data: {
                     name,
                     email,
                     passwordHash,
+                    member_on: autoJoinOrganization ? {
+                        create: {
+                            organizationId: autoJoinOrganization.id,
+                            
+                        },
+                    } : undefined,
                 },
             })
           
