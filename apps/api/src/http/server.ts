@@ -12,11 +12,13 @@ import {
 import { createAccount } from './routes/auth/create-account'
 import { authenticateWithPassword } from './routes/auth/authenticate-with-passwords'
 import { getProfile } from './routes/auth/get-profile'
+import { errorHandler } from './error-handler'
 
 const app = fastify().withTypeProvider<ZodTypeProvider>()
 
 app.setSerializerCompiler(serializerCompiler)
 app.setValidatorCompiler(validatorCompiler)
+app.setErrorHandler(errorHandler)
 
 app.register(fastifyJwt, {
   secret: process.env.JWT_SECRET ?? 'my-secret-key',
