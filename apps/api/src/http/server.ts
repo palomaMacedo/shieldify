@@ -12,6 +12,7 @@ import {
 import { createAccount } from './routes/auth/create-account'
 import { authenticateWithPassword } from './routes/auth/authenticate-with-passwords'
 import { getProfile } from './routes/auth/get-profile'
+import { requestPasswordRecover } from './routes/auth/request-password-recover'
 import { errorHandler } from './error-handler'
 
 const app = fastify().withTypeProvider<ZodTypeProvider>()
@@ -45,6 +46,7 @@ app.register(fastifySwaggerUi, {
 app.register(createAccount)
 app.register(authenticateWithPassword)
 app.register(getProfile)
+app.register(requestPasswordRecover)
 
 app.listen({ port: 3333 }).then(() => {
   console.log('HTTP server running!')
