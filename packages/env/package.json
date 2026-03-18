@@ -1,0 +1,23 @@
+{
+  "name": "@shieldify/env",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.ts",
+  "types": "index.ts",
+  "devDependencies": {
+    "@shieldify/eslint-config": "workspace:*",
+    "@shieldify/prettier": "workspace:*",
+    "@shieldify/tsconfig": "workspace:*",
+    "@types/node": "^22.19.15"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@shieldify/eslint-config/library"
+    ]
+  },
+  "prettier": "@shieldify/prettier",
+  "dependencies": {
+    "@t3-oss/env-nextjs": "^0.13.10",
+    "zod": "^3.24.0"
+  }
+}
