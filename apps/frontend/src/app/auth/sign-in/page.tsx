@@ -14,10 +14,14 @@ export default function SignIn() {
         <Label htmlFor="password">Password</Label>
         <Input type="password" name="password" id="password" />
       </div>
-      <Link href="/auth/forgot-password">Forgot your password?</Link>
-      <Link href="/auth/sign-up">Don't have an account? Sign up</Link>
+      <Button variant="link" asChild>
+        <Link href="/auth/forgot-password">Forgot your password?</Link>
+      </Button>
       <Button type="submit">Sign in</Button>
-      <Button type="submit">Sign in with github</Button>
+      <Button variant="link" asChild>
+        <Link href="/auth/sign-up">Don't have an account? Sign up</Link>
+      </Button>
+      <Button type="button">Sign in with GitHub</Button>
     </form>
   )
 }
