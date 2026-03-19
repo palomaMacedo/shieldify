@@ -1,6 +1,7 @@
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 
 export default function SignUp() {
@@ -24,6 +25,10 @@ export default function SignUp() {
       </div>
      
       <Button type="submit">Create account</Button>
+      <Button variant="link" asChild>
+        <Link href="/auth/sign-in">Already have an account? Sign in </Link>
+
+      </Button>
       <Button type="button">Sign up with github</Button>
     </form>
   )
