@@ -1,13 +1,11 @@
-import Image from "next/image";
+
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center">
-
-      
-      <main>
-        teste    
-      </main>
-    </div>
+    <main className="min-h-screen">
+      <div className="">
+        <h1>Home</h1>
+      </div>
+    </main>
   );
 }

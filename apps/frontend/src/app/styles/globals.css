@@ -2,6 +2,7 @@
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
@@ -93,6 +94,7 @@
   --brand-green: #059759;
   --brand-green-dark: #376854;
   --brand-green-light: #92E3A9;
+  --brand-green-surface:#d5f9c4;
   --brand-gray: #404040;
   --brand-gray-light: #B0B0B0;
   --brand-gray-bg: #ECEDEC;
