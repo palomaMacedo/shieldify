@@ -1,5 +1,5 @@
 {
-  "name": "@shieldify/api",
+  "name": "@wxplus/api",
   "version": "1.0.0",
   "scripts": {
     "dev": "tsx watch src/http/server.ts",
@@ -14,7 +14,7 @@
     "@fastify/swagger-ui": "^5.2.5",
     "@prisma/adapter-pg": "^7.5.0",
     "@prisma/client": "^7.5.0",
-    "@shieldify/auth": "workspace:*",
+    "@wxplus/auth": "workspace:*",
     "bcryptjs": "^3.0.3",
     "dotenv": "^16.0.0",
     "fastify": "^5.0.0",
@@ -24,18 +24,19 @@
   },
   "devDependencies": {
     "@faker-js/faker": "^10.3.0",
-    "@shieldify/eslint-config": "workspace:*",
-    "@shieldify/prettier": "workspace:*",
-    "@shieldify/tsconfig": "workspace:*",
     "@types/bcryptjs": "^3.0.0",
     "@types/node": "^22.0.0",
+    "@wxplus/eslint-config": "workspace:*",
+    "@wxplus/prettier": "workspace:*",
+    "@wxplus/tsconfig": "workspace:*",
     "prisma": "^7.5.0",
+    "tsconfig-paths": "^4.2.0",
     "tsx": "^4.21.0"
   },
-  "prettier": "@shieldify/prettier",
+  "prettier": "@wxplus/prettier",
   "eslintConfig": {
     "extends": [
-      "@shieldify/eslint-config/node"
+      "@wxplus/eslint-config/node"
     ]
   }
 }

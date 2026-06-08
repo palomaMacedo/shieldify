@@ -1,4 +1,4 @@
 {
-  "extends": "@shieldify/tsconfig/library.json",
+  "extends": "@wxplus/tsconfig/library.json",
   "include": ["index.ts"]
 }

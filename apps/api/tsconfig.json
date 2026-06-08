@@ -1,5 +1,5 @@
 {
-  "extends": "@shieldify/tsconfig/node.json",
+  "extends": "@wxplus/tsconfig/node.json",
   "include": ["src/**/*", "@types/*.d.ts"],
   "compilerOptions": {
     "baseUrl": ".",

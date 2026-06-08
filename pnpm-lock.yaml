@@ -41,7 +41,7 @@ importers:
       '@prisma/client':
         specifier: ^7.5.0
         version: 7.5.0(prisma@7.5.0(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@5.9.2))(typescript@5.9.2)
-      '@shieldify/auth':
+      '@wxplus/auth':
         specifier: workspace:*
         version: link:../../packages/auth
       bcryptjs:
@@ -66,24 +66,27 @@ importers:
       '@faker-js/faker':
         specifier: ^10.3.0
         version: 10.3.0
-      '@shieldify/eslint-config':
-        specifier: workspace:*
-        version: link:../../config/eslint-config
-      '@shieldify/prettier':
-        specifier: workspace:*
-        version: link:../../config/prettier
-      '@shieldify/tsconfig':
-        specifier: workspace:*
-        version: link:../../config/typescript-config
       '@types/bcryptjs':
         specifier: ^3.0.0
         version: 3.0.0
       '@types/node':
         specifier: ^22.0.0
         version: 22.19.15
+      '@wxplus/eslint-config':
+        specifier: workspace:*
+        version: link:../../config/eslint-config
+      '@wxplus/prettier':
+        specifier: workspace:*
+        version: link:../../config/prettier
+      '@wxplus/tsconfig':
+        specifier: workspace:*
+        version: link:../../config/typescript-config
       prisma:
         specifier: ^7.5.0
         version: 7.5.0(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@5.9.2)
+      tsconfig-paths:
+        specifier: ^4.2.0
+        version: 4.2.0
       tsx:
         specifier: ^4.21.0
         version: 4.21.0
@@ -130,15 +133,6 @@ importers:
         specifier: ^1.4.0
         version: 1.4.0
     devDependencies:
-      '@shieldify/eslint-config':
-        specifier: workspace:*
-        version: link:../../config/eslint-config
-      '@shieldify/prettier':
-        specifier: workspace:*
-        version: link:../../config/prettier
-      '@shieldify/tsconfig':
-        specifier: workspace:*
-        version: link:../../config/typescript-config
       '@tailwindcss/postcss':
         specifier: ^4
         version: 4.2.1
@@ -151,6 +145,15 @@ importers:
       '@types/react-dom':
         specifier: ^19
         version: 19.2.3(@types/react@19.2.14)
+      '@wxplus/eslint-config':
+        specifier: workspace:*
+        version: link:../../config/eslint-config
+      '@wxplus/prettier':
+        specifier: workspace:*
+        version: link:../../config/prettier
+      '@wxplus/tsconfig':
+        specifier: workspace:*
+        version: link:../../config/typescript-config
       eslint:
         specifier: ^9
         version: 9.39.4(jiti@2.6.1)
@@ -169,7 +172,7 @@ importers:
       '@laloma/eslint-config':
         specifier: ^1.0.1
         version: 1.0.1(eslint@9.39.4(jiti@2.6.1))(typescript@5.9.2)
-      '@shieldify/prettier':
+      '@wxplus/prettier':
         specifier: workspace:*
         version: link:../prettier
       eslint:
@@ -199,13 +202,13 @@ importers:
         specifier: ^3.24.0
         version: 3.25.76
     devDependencies:
-      '@shieldify/eslint-config':
+      '@wxplus/eslint-config':
         specifier: workspace:*
         version: link:../../config/eslint-config
-      '@shieldify/prettier':
+      '@wxplus/prettier':
         specifier: workspace:*
         version: link:../../config/prettier
-      '@shieldify/tsconfig':
+      '@wxplus/tsconfig':
         specifier: workspace:*
         version: link:../../config/typescript-config
 
@@ -218,18 +221,18 @@ importers:
         specifier: ^3.24.0
         version: 3.25.76
     devDependencies:
-      '@shieldify/eslint-config':
-        specifier: workspace:*
-        version: link:../../config/eslint-config
-      '@shieldify/prettier':
-        specifier: workspace:*
-        version: link:../../config/prettier
-      '@shieldify/tsconfig':
-        specifier: workspace:*
-        version: link:../../config/typescript-config
       '@types/node':
         specifier: ^22.19.15
         version: 22.19.15
+      '@wxplus/eslint-config':
+        specifier: workspace:*
+        version: link:../../config/eslint-config
+      '@wxplus/prettier':
+        specifier: workspace:*
+        version: link:../../config/prettier
+      '@wxplus/tsconfig':
+        specifier: workspace:*
+        version: link:../../config/typescript-config
 
 packages:
 

@@ -1,6 +1,6 @@
 <div align="center">
   
- # ⛪ ChurchBeauty
+ # ⛪ wxplus
  
 **A monorepo for products built with purpose.**
 
@@ -10,7 +10,7 @@
  
 ## 📦 Projects
  
-### ⛪ ChurchKit *(in progress)*
+### ⛪ WXPLUS *(in progress)*
  
 A website platform designed for Baptist churches — giving communities a simple, modern, and affordable digital presence.
  
@@ -27,7 +27,7 @@ A website platform designed for Baptist churches — giving communities a simple
 ## 🏗️ Monorepo Structure
  
 ```
-ChurchBeauty/
+wxplus/
 ├── apps/
 │   └── churchkit/       # Church website platform 
 ├── packages/            # Shared components & configs

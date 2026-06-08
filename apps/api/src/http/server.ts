@@ -32,7 +32,7 @@ app.register(fastifyCors)
 app.register(fastifySwagger, {
   openapi: {
     info: {
-      title: 'Shieldify API',
+      title: 'wxplus API',
       description: 'WX Plus backend service',
       version: '1.0.0',
     },

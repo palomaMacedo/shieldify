@@ -1,5 +1,5 @@
 {
-  "extends": "@shieldify/tsconfig/nextjs.json",
+  "extends": "@wxplus/tsconfig/nextjs.json",
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
